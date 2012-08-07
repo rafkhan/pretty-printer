@@ -21,8 +21,8 @@ int main(int argc, char* argv[]) {
 	 * Read XML input from STDIN (used for piping)
 	 */
 	if(argc == 1) { 
-    FILE* fp = stdin;
-    if(!isatty(fileno(fp))){ //Check STDIN for input
+		FILE* fp = stdin;
+		if(!isatty(fileno(fp))){ //Check STDIN for input
 			string str;
 			char temp;
 			while(!cin.eof()) { //Iterate file pointer until EOF
@@ -30,8 +30,8 @@ int main(int argc, char* argv[]) {
 				str += temp; //append char to data string
 			}
 			print_xml(str.c_str()); //convert str to const char*, format, & print
-    } else { //pp called with no args & no data on STDIN
-    	arg_error();
+		} else { //pp called with no args & no data on STDIN
+			arg_error();
 		}
 	}
 
