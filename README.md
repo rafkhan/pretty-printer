@@ -1,4 +1,4 @@
-#XML Pretty Printer
+#Pretty Printer
 
 This is a tiny utility I made in C++ using tinyxml2. It reads an xml string as a command line argument, or from STDIN, formats it, and then prints it to STDOUT.
 
@@ -6,8 +6,8 @@ I made it because the damn ebay api gave giant error messages that I needed to p
 
 ###Installation
 ```
-git clone https://github.com/rafkhan/xml-pretty-printer.git
-cd xml-pretty-printer
+git clone https://github.com/rafkhan/pretty-printer.git
+cd pretty-printer
 make install
 ```
 
