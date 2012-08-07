@@ -7,9 +7,7 @@ I made it because the damn ebay api gave giant error messages that I needed to p
 ###Installation
 ```
 git clone https://github.com/rafkhan/xml-pretty-printer.git
-
 cd xml-pretty-printer
-
 make install
 ```
 
