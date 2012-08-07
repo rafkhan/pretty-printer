@@ -1,4 +1,4 @@
-CC = cc
+CC = g++ 
 all:
 	$(CC) pretty_printer.cpp tinyxml2/tinyxml2.cpp -o pp
 
