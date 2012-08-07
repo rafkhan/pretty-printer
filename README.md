@@ -26,7 +26,7 @@ Will print...
             <Awesomeness>over 9000</Awesomeness>
         </User>
         <User>
-            <Name>Uiri</Name>
+            <Name>uiri</Name>
             <Awesomeness>Less than rafkhan</Awesomeness>
         </User>
         <User>
